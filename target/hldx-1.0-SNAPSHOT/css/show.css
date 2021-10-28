@@ -1,0 +1,13 @@
+#find {
+  font-size: 25px;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    /*background: cyan;*/
+    text-align: center;
+    background-image: url("../images/so-white.png");
+}

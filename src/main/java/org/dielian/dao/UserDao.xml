@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.dielian.dao.UserDao">
+    <select id="selectUser" resultType="User">
+        select name,cellphone,wechat,address,problem,time,date from user order by id Asc
+    </select>
+
+    <insert id="insertUser">
+        insert into user(name,cellphone,wechat,address,problem,time,date) values(#{name},#{cellphone},#{wechat},#{address},#{problem},#{time},#{date})
+    </insert>
+
+    <delete id="dellUser">
+        delete from user where name = #{name}
+    </delete>
+</mapper>

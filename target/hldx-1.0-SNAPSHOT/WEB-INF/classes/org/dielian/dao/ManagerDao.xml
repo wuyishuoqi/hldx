@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.dielian.dao.ManagerDao">
+    <select id="selectManager" resultType="Manager">
+        select name,password from manager order by id desc
+    </select>
+
+    <insert id="insertManager">
+        insert into manager(name,password,role) values(#{name},#{password},#{role})
+    </insert>
+
+    <select id="login" resultType="Manager">
+        select name from manager where name=#{name} and password=#{password}
+    </select>
+
+    <update id="updateManager" parameterType="Manager">
+         update manager set password=#{newpassword} where name=#{name} and password=#{password}
+    </update>
+
+    <select id="role" resultType="String">
+        select role from manager where name=#{loginname}
+    </select>
+</mapper>

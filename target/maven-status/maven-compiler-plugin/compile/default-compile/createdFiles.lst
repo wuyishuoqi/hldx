@@ -1,0 +1,10 @@
+org\dielian\handler\myhandler.class
+org\dielian\service\ManagerService.class
+org\dielian\dao\ManagerDao.class
+org\dielian\domain\Manager.class
+org\dielian\dao\UserDao.class
+org\dielian\controller\ManagerController.class
+org\dielian\domain\User.class
+org\dielian\service\UserService.class
+org\dielian\controller\LoginController.class
+org\dielian\controller\UserController.class

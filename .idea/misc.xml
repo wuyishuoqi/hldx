@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../workplace/book" />
+    <file type="web" url="file://$PROJECT_DIR$/../workplace/hldx" />
+    <file type="web" url="file://$PROJECT_DIR$/../../spring学习文件/05-SpringMVC/源码/ch04-return/ch04-return" />
+    <file type="web" url="file://$PROJECT_DIR$/../../spring学习文件/05-SpringMVC/源码/ch07-ssm" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../spring学习文件/05-SpringMVC/源码/ch07-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/../../spring学习文件/05-SpringMVC/源码/ch04-return/ch04-return/pom.xml" />
+        <option value="$PROJECT_DIR$/../UserBookBorrow/pom.xml" />
+        <option value="$PROJECT_DIR$/../book/pom.xml" />
+        <option value="$PROJECT_DIR$/../workplace/book/pom.xml" />
+        <option value="$PROJECT_DIR$/../workplace/hldx/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../workplace/hldx/out" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    /*background: cyan;*/
+    text-align: center;
+    background-image: url("../images/trees.png");
+}
+.box{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    height: 240px;
+    margin-top: -120px;
+}
+.row{
+    position: relative;
+    top: 22%;
+    left: -2%;
+}
+.but{
+    position: relative;
+    left: 160%;
+}
+.bom{
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
